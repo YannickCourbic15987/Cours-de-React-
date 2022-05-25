@@ -2,7 +2,9 @@ import React from "react";
 import FirstComponent from "./react--learning/01-Premier-Composant/FirstComponent";
 import LesStates from "./react--learning/02-Use_States/LesStates";
 import LesProps from "./react--learning/03-LesProps/LesProps";
-
+import LesStatesII from "./react--learning/04-UseState_II/LesStatesII";
+import UseCss from "./react--learning/05-UtiliserCss/UseCss";
+import Image from "./react--learning/06-Utiliser-des-images/Image";
 
 function App() {
 
@@ -46,6 +48,9 @@ function App() {
       <FirstComponent />
       <LesStates />
       <LesProps txt={<h1>'salutation depuis appjs'</h1>} />
+      <LesStatesII />
+      <UseCss />
+      <Image />
 
     </div>
   );
