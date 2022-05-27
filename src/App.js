@@ -5,6 +5,9 @@ import LesProps from "./react--learning/03-LesProps/LesProps";
 import LesStatesII from "./react--learning/04-UseState_II/LesStatesII";
 import UseCss from "./react--learning/05-UtiliserCss/UseCss";
 import Image from "./react--learning/06-Utiliser-des-images/Image";
+import UsingInput from "./react--learning/07-Utiliser-des-inputs/UsingInput";
+import Condition from "./react--learning/08-Rendu-Conditionnel/Condition";
+import Ternaire from "./react--learning/09-l'opérateur-ternaire/Ternaire";
 
 function App() {
 
@@ -51,6 +54,9 @@ function App() {
       <LesStatesII />
       <UseCss />
       <Image />
+      <UsingInput />
+      <Condition />
+      <Ternaire />
 
     </div>
   );
